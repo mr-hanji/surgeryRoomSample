@@ -1,0 +1,1094 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 14.05.2024 23:01:30
+
+newmtl Plastic_White
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka mat23_c.jpg
+	map_Kd mat23_c.jpg
+
+newmtl Plastic_Black
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat20_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat20_c.jpg
+
+newmtl plastic_2
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat52_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat52_c.jpg
+
+newmtl plastic_bleu
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat55_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat55_c.jpg
+
+newmtl Monitor
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat18_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat18_c.jpg
+
+newmtl Silver
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat28_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat28_c.jpg
+
+newmtl plastic_grey
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat17_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat17_c.jpg
+
+newmtl plastic_trans_2
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat62_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat62_c.jpg
+
+newmtl Humidifier
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat8_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat8_c.jpg
+
+newmtl Humidifier_plastic
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka mat11_c.jpg
+	map_Kd mat11_c.jpg
+
+newmtl Humidifier_interface
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat8_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat8_c.jpg
+
+newmtl Humidifier_Metal
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat9_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat9_c.jpg
+
+newmtl Mat
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat13_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat13_c.jpg
+
+newmtl plastic_trans_white
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat22_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat22_c.jpg
+
+newmtl plastic_trans_bleu
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat63_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat63_c.jpg
+
+newmtl plastic_trans
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat41_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat41_c.jpg
+
+newmtl plastic
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat51_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat51_c.jpg
+
+newmtl bag_1
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat31_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat31_c.jpg
+
+newmtl liquid_1
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat22_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat22_c.jpg
+
+newmtl blue
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat35_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat35_c.jpg
+
+newmtl white
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat13_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat13_c.jpg
+
+newmtl Plastic_Green
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat21_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat21_c.jpg
+
+newmtl Plastic_Transp
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat22_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat22_c.jpg
+
+newmtl batterie
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat32_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat32_c.jpg
+
+newmtl Mat_1
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat14_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat14_c.jpg
+
+newmtl rubber_black
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat20_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat20_c.jpg
+
+newmtl Bladder
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat0_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat0_c.jpg
+
+newmtl plastic_bleu_1
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat56_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat56_c.jpg
+
+newmtl lens
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat41_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat41_c.jpg
+
+newmtl SureTemp
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat29_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat29_c.jpg
+
+newmtl plastic_bleu_2
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat57_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat57_c.jpg
+
+newmtl silver_1
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat75_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat75_c.jpg
+
+newmtl plastic_1
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat51_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat51_c.jpg
+
+newmtl Mat_2
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat13_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat13_c.jpg
+
+newmtl Body
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat1_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat1_c.jpg
+
+newmtl screw_1
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka mat72_c.jpg
+	map_Kd mat72_c.jpg
+
+newmtl plastic_black_1
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat54_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat54_c.jpg
+
+newmtl screw
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat71_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat71_c.jpg
+
+newmtl blue_1
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat35_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat35_c.jpg
+
+newmtl white_1
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat13_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat13_c.jpg
+
+newmtl green
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat39_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat39_c.jpg
+
+newmtl Flowmeter_air
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat3_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat3_c.jpg
+
+newmtl glass_flowmeter
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat38_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat38_c.jpg
+
+newmtl metal
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat44_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat44_c.jpg
+
+newmtl silver_brushed
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat74_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat74_c.jpg
+
+newmtl Patient_Vital_Monitor
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka mat19_c.jpg
+	map_Kd mat19_c.jpg
+
+newmtl metal_silver
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat45_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat45_c.jpg
+
+newmtl silver_2
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat76_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat76_c.jpg
+
+newmtl nurse_call
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat46_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat46_c.jpg
+
+newmtl peripheral_statio_1
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat48_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat48_c.jpg
+
+newmtl peripheral_statio_2
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat49_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat49_c.jpg
+
+newmtl black_matt
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat34_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat34_c.jpg
+
+newmtl plaque
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat50_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat50_c.jpg
+
+newmtl white_outlet
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat82_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat82_c.jpg
+
+newmtl red_outlet
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat69_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat69_c.jpg
+
+newmtl suction_regulator
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka mat77_c.jpg
+	map_Kd mat77_c.jpg
+
+newmtl plastic_trans_1
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat13_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat13_c.jpg
+
+newmtl plastic_red
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat60_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat60_c.jpg
+
+newmtl vaccum
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat78_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat78_c.jpg
+
+newmtl medical_air
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat43_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat43_c.jpg
+
+newmtl oxygen_oulet
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka mat47_c.jpg
+	map_Kd mat47_c.jpg
+
+newmtl Flowmeter_oxygen
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat4_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat4_c.jpg
+
+newmtl Mat_3
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat16_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat16_c.jpg
+
+newmtl Gloves_Box
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat6_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat6_c.jpg
+
+newmtl Gloves
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat5_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat5_c.jpg
+
+newmtl white_cloth
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat13_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat13_c.jpg
+
+newmtl IV_pole
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka mat12_c.jpg
+	map_Kd mat12_c.jpg
+
+newmtl Siderail_1
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka mat26_c.jpg
+	map_Kd mat26_c.jpg
+
+newmtl Siderail_2
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat27_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat27_c.jpg
+
+newmtl white_metal
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat22_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat22_c.jpg
+
+newmtl grey_metal
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat40_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat40_c.jpg
+
+newmtl Head_board
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat7_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat7_c.jpg
+
+newmtl foot_board
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat37_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat37_c.jpg
+
+newmtl bed_striker_cover
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat33_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat33_c.jpg
+
+newmtl Brakes
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat2_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat2_c.jpg
+
+newmtl RUBBER
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat25_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat25_c.jpg
+
+newmtl WHITE_PLASTIC
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat30_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat30_c.jpg
+
+newmtl plastic_blue
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat58_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Hospital Lobby 3D model\Hospital Lobby 3D model\mat58_c.jpg
