@@ -1,13 +1,30 @@
-import React, { useState } from "react";
-import { useFBX } from "@react-three/drei";
+import React, { useEffect, useState } from "react";
+import { useFBX, useTexture } from "@react-three/drei";
+import { MeshStandardMaterial } from "three";
 
 export default function FirstAid() {
-  const tv = useFBX("/First Aid/Models/Firstaid_low.fbx");
-  console.log(tv);
+  const fbx = useFBX("/First Aid/Models/Firstaid_low.fbx");
+
+  const [chairTexture] = useTexture([
+    "/First Aid/Textures/1.png",
+    "/First Aid/Textures/2.png",
+    "/First Aid/Textures/3.png",
+    "/First Aid/Textures/4.png",
+    "/First Aid/Textures/5.png",
+  ]);
+
+  useEffect(() => {
+    fbx.traverse((child) => {
+      if (child.isMesh) {
+        child.material = new MeshStandardMaterial({ map: chairTexture });
+      }
+    });
+  }, [fbx]);
+
   return (
     <>
       <primitive
-        object={tv}
+        object={fbx}
         scale={0.4}
         position={[26.2, 8, 15]}
         rotation-y={Math.PI}
