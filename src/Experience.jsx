@@ -41,7 +41,7 @@ function Experience() {
     sunPosition: { value: [1, 2, 3] },
   });
 
-  useHelper(dirRef, THREE.DirectionalLightHelper, 1); // add helper
+  // useHelper(dirRef, THREE.DirectionalLightHelper, 1); // add helper
 
   return (
     <>
