@@ -25,11 +25,20 @@ export default function DoctorChair() {
 
   return (
     <>
+      {/* <directionalLight
+        castShadow
+        target={fbx}
+        color={"white"}
+        intensity={0.5}
+        position={[0, 0, 0]}
+        // ref={dirRef}
+        rotation={[-Math.PI / 2, 0, 0]}
+      /> */}
       <primitive
         castShadow
         object={fbx}
         scale={0.09}
-        position={[-15, 0, 10]}
+        position={[15, 0, 10]}
         // position={[0, 0, 0]}
         rotation-y={Math.PI}
       />

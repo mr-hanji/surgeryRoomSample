@@ -1,22 +1,22 @@
 import React, { useEffect } from "react";
-import { useGLTF, Clone } from "@react-three/drei";
+import { useGLTF } from "@react-three/drei";
 
-export default function MedicalCenter({}) {
-  const wall = useGLTF("/newWall.glb");
+export default function Ceiling({}) {
+  const ceiling = useGLTF("/ceiling.glb");
 
   useEffect(() => {
-    wall.scene.traverse((child) => {
+    ceiling.scene.traverse((child) => {
       if (child.isMesh) {
         child.receiveShadow = true;
         child.castShadow = true;
       }
     });
-  }, [wall]);
+  }, [ceiling]);
 
   return (
     <>
       <primitive
-        object={wall.scene}
+        object={ceiling.scene}
         scale={5}
         position={[-50, -18.5, 18]}
         // rotation-y={Math.PI}
@@ -25,4 +25,4 @@ export default function MedicalCenter({}) {
   );
 }
 
-useGLTF.preload("/newWall.glb");
+useGLTF.preload("/ceiling.glb");
