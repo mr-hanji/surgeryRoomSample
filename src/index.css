@@ -9,3 +9,24 @@ body,
   overflow: hidden;
   /* background-color: lightskyblue; */
 }
+
+.loading-container {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background-color: #ddd;
+  margin-top: 20px;
+}
+
+.loading-bar {
+  height: 100%;
+  background-color: #4caf50;
+  transition: width 0.3s ease;
+}
+
+.loading-text {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #000;
+  text-align: center;
+}

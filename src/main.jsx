@@ -2,9 +2,12 @@ import React, { Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { Canvas } from "@react-three/fiber";
+import Experience from "./Experience";
 import * as THREE from "three";
 import { Leva } from "leva";
-import Experience from "./Experience";
+import { Provider } from "react-redux";
+import LoadingBar from "./LoadingBar"; // Import the LoadingBar component
+//test
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -20,9 +23,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       shadows
     >
       {/* <color args={['#ff0000']} attach="background"/> */}
-      {/* <Suspense fallback={<LoadingBar />}> */}
-      <Experience />
-      {/* </Suspense> */}
+      <Suspense fallback={<LoadingBar />}>
+        <Experience />
+      </Suspense>
     </Canvas>
   </React.StrictMode>
 );
