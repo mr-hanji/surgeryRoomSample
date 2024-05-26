@@ -20,6 +20,8 @@ import * as THREE from "three";
 import ICU from "./models/ICU";
 import Character from "./models/Character";
 import MedicalCenter from "./models/MedicalCenter";
+import TV from "./models/TV";
+import Equipment from "./models/Equipment";
 
 function Experience() {
   const { camera, gl } = useThree();
@@ -70,6 +72,8 @@ function Experience() {
       <ICU />
       {/* <Character /> */}
       <MedicalCenter />
+      <TV />
+      <Equipment />
     </>
   );
 }
