@@ -51,7 +51,7 @@ function Experience() {
 
       <directionalLight
         castShadow
-        position={[1, 2, 3]}
+        position={[-20, 2, 30]}
         intensity={1.5}
         shadow-normalBias={0.04}
         ref={dirRef}
@@ -61,13 +61,13 @@ function Experience() {
       <Sky sunPosition={sunPosition} />
 
       {/* <mesh
-        scale={40}
-        position={[0, 0, 0]}
+        scale={60}
+        position={[0, 0.07, 0]}
         rotation-x={-Math.PI * 0.5}
         receiveShadow
       >
         <planeGeometry />
-        <meshStandardMaterial color={"green"} />
+        <meshStandardMaterial color={"gray"} />
       </mesh> */}
 
       {/* models */}

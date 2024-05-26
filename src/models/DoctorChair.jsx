@@ -17,6 +17,7 @@ export default function DoctorChair() {
   useEffect(() => {
     fbx.traverse((child) => {
       if (child.isMesh) {
+        child.castShadow = true;
         child.material = new MeshStandardMaterial({ map: chairTexture });
       }
     });
@@ -25,9 +26,11 @@ export default function DoctorChair() {
   return (
     <>
       <primitive
+        castShadow
         object={fbx}
         scale={0.09}
         position={[-15, 0, 10]}
+        // position={[0, 0, 0]}
         rotation-y={Math.PI}
       />
     </>

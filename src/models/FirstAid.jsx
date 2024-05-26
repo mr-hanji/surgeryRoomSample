@@ -16,6 +16,7 @@ export default function FirstAid() {
   useEffect(() => {
     fbx.traverse((child) => {
       if (child.isMesh) {
+        child.castShadow = true;
         child.material = new MeshStandardMaterial({ map: chairTexture });
       }
     });
@@ -27,6 +28,7 @@ export default function FirstAid() {
         object={fbx}
         scale={0.4}
         position={[26.2, 8, 15]}
+        // position={[0, 3, 0]}
         rotation-y={Math.PI}
       />
     </>
