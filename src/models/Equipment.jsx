@@ -3,6 +3,7 @@ import { useGLTF } from "@react-three/drei";
 
 export default function Equipment() {
   const tv = useGLTF("/equipment/scene.gltf");
+  console.log(tv);
   return (
     <>
       <primitive

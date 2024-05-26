@@ -22,6 +22,8 @@ import Character from "./models/Character";
 import MedicalCenter from "./models/MedicalCenter";
 import TV from "./models/TV";
 import Equipment from "./models/Equipment";
+import FirstAid from "./models/FirstAid";
+import DoctorChair from "./models/DoctorChair";
 
 function Experience() {
   const { camera, gl } = useThree();
@@ -73,7 +75,9 @@ function Experience() {
       {/* <Character /> */}
       <MedicalCenter />
       <TV />
-      <Equipment />
+      {/* <Equipment /> */}
+      <FirstAid />
+      <DoctorChair />
     </>
   );
 }
