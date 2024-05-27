@@ -27,6 +27,7 @@ import DoctorChair from "./models/DoctorChair";
 import Ceiling from "./models/Ceiling";
 import Floor from "./models/Floor";
 import { RectAreaLightHelper } from "three/examples/jsm/helpers/RectAreaLightHelper";
+import Closet from "./models/Closet";
 
 extend({ RectAreaLightHelper });
 function Experience() {
@@ -39,7 +40,7 @@ function Experience() {
   const spotRef4 = useRef();
   useFrame((state, delta) => {
     // console.log(camera);
-    // state.camera.lookAt(-10, 10, 0);
+    // console.log(state.camera.position);
     // dirRef.current.lookAt([10, 0, 0]);
   });
 
@@ -52,17 +53,17 @@ function Experience() {
   });
 
   useHelper(dirRef, THREE.DirectionalLightHelper, 1); // add helper
-  useHelper(spotRef, RectAreaLightHelper, 1);
-  useHelper(spotRef1, RectAreaLightHelper, 1);
-  useHelper(spotRef2, RectAreaLightHelper, 1);
-  useHelper(spotRef3, RectAreaLightHelper, 1);
-  useHelper(spotRef4, RectAreaLightHelper, 1);
+  // useHelper(spotRef, RectAreaLightHelper, 1);
+  // useHelper(spotRef1, RectAreaLightHelper, 1);
+  // useHelper(spotRef2, RectAreaLightHelper, 1);
+  // useHelper(spotRef3, RectAreaLightHelper, 1);
+  // useHelper(spotRef4, RectAreaLightHelper, 1);
 
   return (
     <>
       {perfVisible && <Perf position="top-left" />}
 
-      <OrbitControls makeDefault />
+      <OrbitControls makeDefault maxDistance={33} />
 
       {/* <directionalLight
         castShadow
@@ -115,6 +116,25 @@ function Experience() {
         ref={spotRef3}
         rotation={[-Math.PI / 2, 0, 0]}
       />
+      <rectAreaLight
+        width={0.5}
+        height={16}
+        color={"white"}
+        intensity={50}
+        position={[-11, 16, -8]}
+        ref={spotRef3}
+        rotation={[-Math.PI / 2, 0, 0]}
+      />
+
+      <rectAreaLight
+        width={0.3}
+        height={16}
+        color={"white"}
+        intensity={100}
+        position={[-16, 16, 10]}
+        ref={spotRef3}
+        rotation={[-Math.PI / 2, 0, 0]}
+      />
 
       <Sky sunPosition={sunPosition} />
 
@@ -138,6 +158,7 @@ function Experience() {
       <DoctorChair />
       <Ceiling />
       <Floor />
+      <Closet />
     </>
   );
 }

@@ -23,9 +23,8 @@ export default function ICU() {
         target={icu}
         color={"white"}
         intensity={0.3}
-        position={[-3, 8, 0]}
+        position={[15, 13, 0]}
         ref={dirRef}
-        rotation={[-Math.PI / 2, 0, 0]}
       />
       <primitive
         object={icu}

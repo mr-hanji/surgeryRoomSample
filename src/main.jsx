@@ -13,7 +13,12 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Leva collapsed />
     <Canvas
-      camera={{ fov: 45, near: 0.1, far: 200, position: [3, 2, 6] }}
+      camera={{
+        fov: 45,
+        near: 0.1,
+        far: 200,
+        position: [-30.26665410754555, 11.319725917842282, 17.076422936570765],
+      }}
       gl={{
         antialias: false,
         toneMapping: THREE.ACESFilmicToneMapping,
