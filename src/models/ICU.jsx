@@ -29,7 +29,7 @@ export default function ICU() {
       <primitive
         object={icu}
         scale={0.13}
-        position={[20.5, 0, 2]}
+        position={[20.5, 0.05, 2]}
         rotation-y={-Math.PI / 2}
       />
     </>

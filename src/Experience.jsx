@@ -38,19 +38,20 @@ function Experience() {
   const spotRef2 = useRef();
   const spotRef3 = useRef();
   const spotRef4 = useRef();
+
   useFrame((state, delta) => {
     // console.log(camera);
     // console.log(state.camera.position);
     // dirRef.current.lookAt([10, 0, 0]);
   });
 
-  const { perfVisible } = useControls({
-    perfVisible: true,
-  });
+  // const { perfVisible } = useControls({
+  //   perfVisible: true,
+  // });
 
-  const { sunPosition } = useControls("sky", {
-    sunPosition: { value: [1, 2, 3] },
-  });
+  // const { sunPosition } = useControls("sky", {
+  //   sunPosition: { value: [1, 2, 3] },
+  // });
 
   useHelper(dirRef, THREE.DirectionalLightHelper, 1); // add helper
   // useHelper(spotRef, RectAreaLightHelper, 1);
@@ -61,7 +62,7 @@ function Experience() {
 
   return (
     <>
-      {perfVisible && <Perf position="top-left" />}
+      {/* {perfVisible && <Perf position="top-left" />} */}
 
       <OrbitControls makeDefault maxDistance={33} />
 
@@ -136,7 +137,7 @@ function Experience() {
         rotation={[-Math.PI / 2, 0, 0]}
       />
 
-      <Sky sunPosition={sunPosition} />
+      <Sky sunPosition={[1, 2, 3]} />
 
       {/* <mesh
         scale={60}
